@@ -6,76 +6,88 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Trabajo clase 5s">
-  <title>Cat&Dog</title>
+  <meta name="author" content="Santiago L. Pasciullo" />
+  <meta name="copyright" content="Santiago L. Pasciullo" />
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <!-- FUENTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>FrontCat&Dog</title>
 </head>
 
 <body>
-  <header>
-    <div class="wrapper">
-      <div class="top-header">
-        <p>Grandes ofertas en comederos</p>
-        <div class="form-top">
-          <label for="Petshop">Petshop</label>
-          <select name="Idioma" id="">
-            <option value="Español">Español</option>
-            <option value="Inglés">Inglés</option>
-          </select>
-          <label for="Petshop">ARG</label>
-          <select name="Idioma" id="">
-            <option value="Español">Pesos</option>
-            <option value="Inglés">USD</option>
-          </select>
-        </div>
+  <div class="wrapper">
+    <div class="top-header">
+      <p>Grandes ofertas en comederos</p>
+      <div class="form-top">
+        <label for="Petshop">Petshop</label>
+        <select name="Idioma" id="">
+          <option value="Español">Español</option>
+          <option value="Inglés">Inglés</option>
+        </select>
+        <label for="Petshop">ARG</label>
+        <select name="Idioma" id="">
+          <option value="Español">Pesos</option>
+          <option value="Inglés">USD</option>
+        </select>
       </div>
+    </div>
+    <header class="hero">
       <div class="header-content">
-        <a><img src="img/Logo (1).png" alt="Logo"></a>
-        <nav>
-          <ul type="none">
-            <li><img src="img/huella.png" alt="ícono huellita" width="30px" height="auto"><a href="#">Categoría</a></li>
-            <li><img src="img/huella.png" alt="ícono huellita" width="30px" height="auto"><a href="#">Pets</a></li>
-            <li><img src="img/huella.png" alt="ícono huellita" width="30px" height="auto"><a href="#">Nosotros</a></li>
-            <li><img src="img/huella.png" alt="ícono huellita" width="30px" height="auto"><a href="#">Contactanos</a>
+
+        
+        <nav class="navMain">
+          <a href="#" class="navLogo"><img src="assets/img/Logo (1).png" alt="Logo"></a>
+          <ul class="navList">
+            <li><i class="fa-solid fa-paw"></i><a href="#"> Categoría</a></li>
+            <li><i class="fa-solid fa-paw"></i><a href="#"> Pets</a></li>
+            <li><i class="fa-solid fa-paw"></i><a href="#"> Nosotros</a></li>
+            <li><i class="fa-solid fa-paw"></i><a href="#"> Contactanos</a>
             </li>
           </ul>
         </nav>
       </div>
-    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/img/Slide.png" alt="banner principal" width="100%" height="auto">
+  </div>
   </header>
-  <div class="wrapper">
-    <section>
-      <div class="hero-image">
-        <img src="img/Slide.png" alt="banner principal" width="100%" height="auto">
-      </div>
-    </section>
-    <article class="featured-items" align="center">
-      <header align="center">
-        <img src="img/huella.png" alt="Huellita perro">
-        <h1>Productos Destacados</h1>
-      </header>
-      <div>
-        <ul align="center" type="none">
-          <li><a href="#">Comederos</a></li>
-          <li><a href="#">Accesorios</a></li>
-          <li><a href="#">Comida</a></li>
-        </ul>
-      </div>
-      <section align="center">
-        <img src="img/churrasquito.png" alt="churrasquito">
+
+  <article class="featured-items">
+    <header class="headerProducts">
+      <img class="huellita" src="assets/img/huella.png" alt="Huellita perro">
+      <h1>Productos Destacados</h1>
+    </header>
+    <ul class="subMenu">
+      <li><a href="#">Comederos</a></li>
+      <li><a href="#">Accesorios</a></li>
+      <li><a href="#">Comida</a></li>
+    </ul>
+    <section class="sectionCards">
+      <section class="card">
+        <img class="productImg" src="assets/img/churrasquito.png" alt="churrasquito">
         <h4>Comedero para perro</h4>
         <p>$250</p>
       </section>
-      <section>
-        <img src="img/comedero.png" alt="churrasquito">
+      <section class="card">
+        <img class="productImg" src="assets/img/comedero.png" alt="churrasquito">
         <h4>Juguete huesito</h4>
         <p>$650</p>
       </section>
-      <section>
-        <img src="img/Huesito.png" alt="churrasquito">
+      <section class="card">
+        <img class="productImg" src="assets/img/Huesito.png" alt="churrasquito">
         <h4>Juguete Churrasquito</h4>
         <p>$150</p>
+        </div>
       </section>
-    </article>
-  </div>
+  </article>
 </body>
 
 </html>

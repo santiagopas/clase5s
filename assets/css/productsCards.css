@@ -1,0 +1,25 @@
+.sectionCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+
+.prodcutImg {
+  width: 265px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card>p{
+  color: var( --primaryBg);
+  font-weight:500;
+}

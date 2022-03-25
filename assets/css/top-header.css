@@ -1,0 +1,13 @@
+.top-header {
+  background-color: var(--rectangleBg);
+  color: var(--rectangleColor);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 50px;
+
+}

@@ -1,0 +1,26 @@
+@import 'top-header.css';
+@import 'hero.css';
+@import 'header.css';
+@import 'featured-items.css';
+@import 'productsCards.css';
+
+
+:root {
+  --fontBase: 'Roboto', sans-serif;
+  --fontColor: #3C2313;
+  --primaryBg: #F0A83E;
+  --buttonResBg: #8A8787;
+  --linkSecondary: #666666;
+  --rectangleBg: #222222;
+  --rectangleColor: #F3F3F3;
+}
+
+body {
+  font-family: var(--fontBase);
+  min-block-size: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
