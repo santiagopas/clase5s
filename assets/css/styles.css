@@ -15,10 +15,15 @@
   --rectangleColor: #F3F3F3;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--fontBase);
   min-block-size: 100vh;
-  margin: 0;
 }
 
 a {

@@ -23,6 +23,7 @@
   list-style-type: none;
   color: var(--linkSecondary);
   text-decoration: none;
+  align-items: center;
 }
 
 .subMenu>li {
@@ -30,12 +31,14 @@
 }
 
 .subMenu>li>a {
-  color: var(--linkSecondary)
+  color: var(--linkSecondary);
+  font-size: 1rem;
 }
 
 h1 {
   font-size: 3rem;
   margin: 0;
+  color: var(--fontColor);
 }
 
 .huellita {
