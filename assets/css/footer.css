@@ -1,8 +1,67 @@
 .inputSuscribe {
   background-color: white;
-
+  width: 40%;
 }
 
 .inputSuscribe::placeholder {
   color: #A0A0A0;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsLetter {
+  background-color: var(--primaryBg);
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.suscribeText {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.rowLeft {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 47px;
+}
+
+.rowLeft>img {
+  margin-right: 10px;
+}
+
+.rowRight {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 47px;
+}
+
+.btnSuscribe {
+  background-color: var(--fontColor);
+  color: white;
+  height: 40px;
+  width: 92px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+footer {
+  height: 35vh;
+  background-color: var(--fontColor);
 }
