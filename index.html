@@ -27,53 +27,58 @@
     <div class="top-header">
       <p>Grandes ofertas en comederos</p>
       <div class="form-top">
-        <label for="Petshop">Petshop</label>
-        <select name="Idioma" id="">
-          <option value="Español">Español</option>
-          <option value="Inglés">Inglés</option>
+
+        <select name="Idioma" id="languaje">
+          <option value="Esp">Español</option>
+          <option value="Ing">Inglés</option>
         </select>
-        <label for="Petshop">ARG</label>
-        <select name="Idioma" id="">
-          <option value="Español">Pesos</option>
-          <option value="Inglés">USD</option>
+
+        <select name="cambio" id="change">
+          <option value="Español">ARG$</option>
+          <option value="Inglés">USD$</option>
         </select>
       </div>
     </div>
     <header class="hero">
-        <nav class="navMain">
-          <a href="#" class="navLogo"><img src="assets/img/Logo (1).png" alt="Logo"></a>
-          <ul class="navList">
-            <li><i class="fa-solid fa-paw"></i><a href="#"> Categoría</a></li>
-            <li><i class="fa-solid fa-paw"></i><a href="#"> Pets</a></li>
-            <li><i class="fa-solid fa-paw"></i><a href="#"> Nosotros</a></li>
-            <li><i class="fa-solid fa-paw"></i><a href="#"> Contactanos</a>
-            </li>
-          </ul>
-        </nav>
-      
+      <nav class="navMain">
+        <a href="index.html" class="navLogo"><img src="assets/img/Logo.svg" alt="Logo Cat & Dog"></a>
+        <ul class="navList">
+          <li><i class="fa-solid fa-paw"></i><a href="#"> Categoría</a></li>
+          <li><i class="fa-solid fa-paw"></i><a href="#"> Pets</a></li>
+          <li><i class="fa-solid fa-paw"></i><a href="#"> Nosotros</a></li>
+          <li><i class="fa-solid fa-paw"></i><a href="#"> Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+
   </div>
   <div class="hero-image">
-    <img src="assets/img/Slide.png" alt="banner principal" width="100%" height="auto">
+    <div class="bannerTitle">
+      <h1>¡Es un placer tenerte aquí!</h1>
+      <p>¡Comederos en descuento!</p>
+      <button class="btnBanner">comederos</button>
+    </div>
   </div>
   </header>
 
   <article class="featured-items">
     <header class="headerProducts">
       <img class="huellita" src="assets/img/huella.png" alt="Huellita perro">
-      <h1>Productos Destacados</h1>
+      <h2>Productos Destacados</h2>
     </header>
     <ul class="subMenu">
       <li><a href="#">Comederos</a></li>-
       <li><a href="#">Accesorios</a></li>-
       <li><a href="#">Comida</a></li>
     </ul>
+
     <section class="sectionCards">
       <section class="card">
         <img class="productImg" src="assets/img/churrasquito.png" alt="churrasquito">
         <h4>Comedero para perro</h4>
         <p>$250</p>
       </section>
-      <section class="card">
+      <section class="card mid">
         <img class="productImg" src="assets/img/comedero.png" alt="churrasquito">
         <h4>Juguete huesito</h4>
         <p>$650</p>
@@ -82,9 +87,35 @@
         <img class="productImg" src="assets/img/Huesito.png" alt="churrasquito">
         <h4>Juguete Churrasquito</h4>
         <p>$150</p>
-        </div>
       </section>
+    </section>
   </article>
+
+  <div class="container">
+    <form id="contact" action="" method="post">
+      <h3>Contáctanos</h3>
+      <input placeholder="Nombre y apellido" type="text" tabindex="1" required autofocus>
+      <input placeholder="Ingresá tu correo electrónico" type="email" tabindex="2" required>
+      <input placeholder="Teléfono" type="tel" tabindex="3" required>
+      <div class="btnContainer">
+        <button class="btnReset" type="submit">Resetear</button>
+        <button class="btnSend" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="newsLetter">
+    <img src="./assets/img/sendMail.svg" alt="Enviar correo">
+    <p>Suscríbete para más novedades</p>
+    <input class="inputSuscribe" type="email" name="suscribe" placeholder="Ingresá tu correo electronico">
+    <button>Suscribirme</button>
+  </div>
+  <footer>
+
+  </footer>
+  <div class="top-header">
+    <p>Todos los derechos reservados Front End</p>
+  </div>
 </body>
 
 </html>

@@ -1,8 +1,10 @@
-.wrapper {
+.featured-items{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
+
 
 .headerProducts {
   display: flex;
@@ -11,7 +13,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .subMenu {
   display: flex;
@@ -24,6 +25,7 @@
   color: var(--linkSecondary);
   text-decoration: none;
   align-items: center;
+  width: 100%;
 }
 
 .subMenu>li {
@@ -35,13 +37,14 @@
   font-size: 1rem;
 }
 
-h1 {
+h2 {
   font-size: 3rem;
   margin: 0;
   color: var(--fontColor);
 }
 
 .huellita {
-  width: 5%;
+  width: 20%;
   margin-top: 20px;
 }
+

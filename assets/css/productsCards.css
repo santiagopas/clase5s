@@ -1,25 +1,34 @@
 .sectionCards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 3%;
+  width: 100%;
 }
 
-.prodcutImg {
-  width: 265px;
-
+.productImg {
+  width: 100%;
+  min-width: 264px;
+  height: auto;
+  min-height: 312px;
 }
 
 .card {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  background-color: var(--cardColor);
 }
 
-.card>p{
-  color: var( --primaryBg);
-  font-weight:500;
+.mid {
+  margin: 0 20px;
+}
+
+.card>p {
+  color: var(--primaryBg);
+  font-weight: 500;
+  margin-bottom: 7.5px;
 }

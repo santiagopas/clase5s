@@ -1,0 +1,8 @@
+.inputSuscribe {
+  background-color: white;
+
+}
+
+.inputSuscribe::placeholder {
+  color: #A0A0A0;
+}

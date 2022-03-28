@@ -1,8 +1,10 @@
 @import 'top-header.css';
-@import 'hero.css';
 @import 'header.css';
+@import 'hero.css';
 @import 'featured-items.css';
 @import 'productsCards.css';
+@import 'form.css';
+@import 'footer.css';
 
 
 :root {
@@ -13,6 +15,7 @@
   --linkSecondary: #666666;
   --rectangleBg: #222222;
   --rectangleColor: #F3F3F3;
+  --cardColor: #FBFAF6;
 }
 
 *{
@@ -24,6 +27,7 @@
 body {
   font-family: var(--fontBase);
   min-block-size: 100vh;
+  overflow-x: hidden;
 }
 
 a {

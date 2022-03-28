@@ -9,5 +9,12 @@
   justify-content: space-between;
   padding-left: 90px;
   padding-right: 50px;
+  height: 5vh;
+}
 
+
+select{
+  color: white;
+  background: var(--rectangleBg);
+  border: none;
 }
