@@ -1,10 +1,9 @@
-.featured-items{
+.featured-items {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
-
 
 .headerProducts {
   display: flex;
@@ -41,6 +40,7 @@ h2 {
   font-size: 3rem;
   margin: 0;
   color: var(--fontColor);
+  text-align: center;
 }
 
 .huellita {
@@ -48,3 +48,12 @@ h2 {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 670px) {
+  .subMenu {
+    justify-content: space-around;
+  }
+
+  .navMain {
+    padding-top: 20px;
+  }
+}

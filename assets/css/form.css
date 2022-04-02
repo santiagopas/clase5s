@@ -44,6 +44,7 @@ input::placeholder {
   color: #FFF;
   border: none;
   text-align: justify;
+  padding-left: 20px;
 }
 
 
@@ -63,4 +64,23 @@ input::placeholder {
   width: 110px;
   border-radius: 15px;
   border: none;
+}
+
+
+@media only screen and (max-width: 670px) {
+  .container{
+    display: flex;
+  }
+  input{
+    width: 70%;
+  }
+  input::placeholder {
+    color: #AB9C9C;
+  }
+
+  .btnReset, .btnSend{
+    height: 45px;
+    width: 199px;
+  }
+
 }

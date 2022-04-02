@@ -89,3 +89,72 @@ footer {
 .logoFooter {
   margin-right: 70px;
 }
+
+
+@media only screen and (max-width: 670px) {
+
+  .newsLetter {
+    flex-direction: column;
+  }
+
+  .rowRight {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+
+  .rowLeft {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 47px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+  .inputSuscribe {
+    background-color: white;
+    width: 261px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .btnSuscribe {
+    width: 100px;
+    height: 35px;
+    margin-left: 0px;
+    margin-right: 29px;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: space-around;
+    height: 35vh;
+  }
+
+  .logoFooter {
+    margin: 0;
+  }
+
+  .iconWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .iconContainer {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bottom {
+    font-size: 13px;
+  }
+}
